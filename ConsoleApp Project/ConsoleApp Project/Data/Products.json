@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "iphone 16 pro",
+    "Price": 211199.0,
+    "Stock": 21,
+    "Id": "df7c01c2-a12f-4cc5-8bea-be03fea7fccb"
+  },
+  {
+    "Name": "iphone 5",
+    "Price": 9999.0,
+    "Stock": 1000,
+    "Id": "5d2d9df1-6dfa-401c-9624-91c87ae6bf7e"
+  },
+  {
+    "Name": "iphone 4",
+    "Price": 999.0,
+    "Stock": 1,
+    "Id": "b8a4cac5-4ea4-417f-bd84-65866770b937"
+  }
+]

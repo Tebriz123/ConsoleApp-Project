@@ -5,11 +5,11 @@ using System.Text;
 
 namespace ConsoleApp_Project.Models
 {
-    internal class Order
+    internal class Order:BaseEntity
     {
 
-        private static int s_count = 0;
-         public int Id { get; set; }
+     
+        
         List<OrderItem> Items { get; set;} 
         public int Total { get; set; }
         public string Email { get; set; }
@@ -17,10 +17,6 @@ namespace ConsoleApp_Project.Models
         public DateTime MyProperty { get; set; }
 
 
-        public Order()
-        {
-            Id = ++s_count;
-        }
-
+    
     }
 }

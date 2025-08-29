@@ -1,79 +1,29 @@
-﻿using System;
+﻿using ConsoleApp_Project.Models;
+using System;
 using System.Collections.Generic;
 using System.Security.Principal;
 using System.Text;
 
 namespace ConsoleApp_Project.Models
 {
-    internal class Product
+    internal class Product:BaseEntity
     {
-        private string _name;
-        public int Id { get; set; }
+        public string  Name { get; set; }
 
-        private static int s_count = 0;
+     
 
+        public decimal Price { get; set; }
 
-        private decimal _price;
+        public int Stock { get; set; }
 
-        private int _stock;
-
-        public string Name
-        {
-            get
-            {
-                return _name;
-            }
-            set
-            {
-                if (value.Length >= 1)
-                {
-                    if (!value.Equals(Name))
-                    {
-                        _name = value;
-
-                    }
-                }
-            }
-        }
-
-        public decimal Price
-        {
-            get
-            {
-                return _price;
-
-            }
-            set
-            {
-                if (value > 0)
-                {
-                    _price = value;
-                }
-            }
-        }
-
-        public int Stock
-        {
-            get
-            {
-                return _stock;
-            }
-            set
-            {
-                if (value >= 0)
-                {
-                    _stock = value;
-                }
-            }
-        }
+      
 
         public Product(string name, decimal price, int stock)
-        {
+        { 
+       
             Name = name;
             Price = price;
             Stock = stock;
-
-            Id = ++s_count;
         }
 
 

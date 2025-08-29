@@ -1,5 +1,6 @@
 ﻿using ConsoleApp_Project.Models;
 using System;
+using System.IO;
 using System.Linq.Expressions;
 
 namespace ConsoleApp_Project
@@ -8,9 +9,9 @@ namespace ConsoleApp_Project
     {
         static void Main(string[] args)
         {
-            ProductMenu menu = new ProductMenu();
+            ManagementApplication menu = new ManagementApplication();
             menu.Run();
-          
+
         }
     }
 }

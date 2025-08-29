@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\necef\\OneDrive\\İş masası\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj": {}
+    "C:\\Users\\necef\\OneDrive\\İş masası\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\necef\\OneDrive\\İş masası\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj": {
+    "C:\\Users\\necef\\OneDrive\\İş masası\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\necef\\OneDrive\\İş masası\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj",
+        "projectUniqueName": "C:\\Users\\necef\\OneDrive\\İş masası\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj",
         "projectName": "ConsoleApp Project",
-        "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj",
+        "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj",
         "packagesPath": "C:\\Users\\necef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\necef\\OneDrive\\İş masası\\ConsoleApp Project\\ConsoleApp Project\\obj\\",
+        "outputPath": "C:\\Users\\necef\\OneDrive\\İş masası\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

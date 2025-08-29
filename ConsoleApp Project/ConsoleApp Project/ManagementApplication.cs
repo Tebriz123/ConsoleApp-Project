@@ -1,11 +1,18 @@
-﻿using System;
+﻿using ConsoleApp_Project.Models;
+using ConsoleApp_Project.Services;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp_Project.Models
+namespace ConsoleApp_Project
 {
-    internal class ProductMenu
+    internal class ManagementApplication
     {
+        public ProductService ProductService { get; set; }
+        public ManagementApplication()
+        {
+            ProductService = new ProductService();
+        }
         public void Run()
         {
             int num = 0;
@@ -21,20 +28,10 @@ namespace ConsoleApp_Project.Models
                 switch (num)
                 {
                     case 1:
-
-
-
-
-
-
-
-
-
-
-                        Console.WriteLine("Product created");
+                        ProductService.CreateProduct();
                         break;
                     case 2:
-                        Console.WriteLine("Product deleted");
+                        ProductService.DeleteProduct();
                         break;
                     case 3:
                         Console.WriteLine("Product");
@@ -54,22 +51,31 @@ namespace ConsoleApp_Project.Models
                     case 8:
                         Console.WriteLine("ORDERS STATUS");
                         break;
+
                     case 0:
-                        Console.WriteLine("EXITED");
+                        if (result)
+                        {
+                            Console.WriteLine("Program finished");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Wrong input");
+                        }   
                         break;
                     default:
                         Console.WriteLine("Wrong input");
-                        break ;
+                        break;
 
 
 
 
 
                 }
-
-
             }
+
 
         }
     }
 }
+
+

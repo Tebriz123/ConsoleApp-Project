@@ -11,3 +11,20 @@ C:\Users\necef\OneDrive\İş masası\ConsoleApp Project\ConsoleApp Project\obj\D
 C:\Users\necef\OneDrive\İş masası\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.dll
 C:\Users\necef\OneDrive\İş masası\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.pdb
 C:\Users\necef\OneDrive\İş masası\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.genruntimeconfig.cache
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.AssemblyInfoInputs.cache
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.AssemblyInfo.cs
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.csproj.CoreCompileInputs.cache
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.sourcelink.json
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.dll
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.pdb
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\bin\Debug\netcoreapp3.1\ConsoleApp Project.exe
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\bin\Debug\netcoreapp3.1\ConsoleApp Project.deps.json
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\bin\Debug\netcoreapp3.1\ConsoleApp Project.runtimeconfig.json
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\bin\Debug\netcoreapp3.1\ConsoleApp Project.runtimeconfig.dev.json
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\bin\Debug\netcoreapp3.1\ConsoleApp Project.dll
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\bin\Debug\netcoreapp3.1\ConsoleApp Project.pdb
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.genruntimeconfig.cache
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleApp Project.csproj.AssemblyReference.cache
+C:\Users\necef\OneDrive\İş masası\mini Project\ConsoleApp Project\ConsoleApp Project\obj\Debug\netcoreapp3.1\ConsoleA.B96B3060.Up2Date
