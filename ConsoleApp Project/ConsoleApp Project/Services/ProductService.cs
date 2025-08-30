@@ -1,4 +1,5 @@
 ﻿using ConsoleApp_Project.Models;
+using ConsoleApp_Project.Repositories;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -14,9 +15,10 @@ namespace ConsoleApp_Project.Services
     internal class ProductService
     {
         private readonly string _path = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"../../../Data/Products.json"));
+
+        public Repostory<Product> ProductRepostory { get; set; }= new Repostory<Product>();
         public void CreateProduct()
         {
-
 
             Console.WriteLine("Please enter name: ");
             string name = Console.ReadLine().Trim();
@@ -26,23 +28,8 @@ namespace ConsoleApp_Project.Services
                 Console.WriteLine("please enter right name:");
                 return;
             }
-            List<Product> products = null;
-            string result = null;
-
-            using (StreamReader sr = new StreamReader(_path))
-            {
-                result = sr.ReadToEnd();
-            }
-
-            if (string.IsNullOrEmpty(result))
-            {
-                products = new List<Product>();
-
-            }
-            else
-            {
-                products = JsonConvert.DeserializeObject<List<Product>>(result);
-            }
+            List<Product> products = ProductRepostory.Deserialize(_path);
+            
             bool isDublicate = products.Any(p => p.Name == name);
             if (isDublicate)
             {
@@ -76,12 +63,7 @@ namespace ConsoleApp_Project.Services
             Console.WriteLine($"Id: {product.Id} Name: {product.Name} Price: {product.Price} Stock: {product.Stock}");
 
             products.Add(product);
-            string json = JsonConvert.SerializeObject(products);
-
-            using (StreamWriter sw = new StreamWriter(_path))
-            {
-                sw.Write(json);
-            }
+            ProductRepostory.Serialize(_path, products);
         }
 
         public void DeleteProduct()
@@ -89,45 +71,41 @@ namespace ConsoleApp_Project.Services
             Console.Write("Enter product Id: ");
             string id = Console.ReadLine();
 
-            List<Product> products = null;
-            string result = null;
-
-            using (StreamReader sr = new StreamReader(_path))
-            {
-                result = sr.ReadToEnd();
-            }
-
-            if (string.IsNullOrEmpty(result))
-            {
-                products = new List<Product>();
-
-            }
-            else
-            {
-                products = JsonConvert.DeserializeObject<List<Product>>(result);
-            }
+            List<Product> products = ProductRepostory.Deserialize(_path);
+            
             
             Product delId = products.Find(p => p.Id.ToString() == id);
             products.Remove(delId);
-            string json = JsonConvert.SerializeObject(products);
-            using (StreamWriter sw = new StreamWriter(_path))
-            {
-                sw.Write(json);
-            }
+            ProductRepostory.Serialize(_path, products);
             Console.WriteLine($"{id} pr");
         }
 
 
         public void GetProductById()
         {
-
+            Console.WriteLine("Id daxil edin:");
+            string id = Console.ReadLine();
+            List<Product> products = ProductRepostory.Deserialize(_path);
+            Product product = products.Find(p => p.Id.ToString() == id);
+            if (product == null)
+            {
+                Console.WriteLine($"Bu {id}li mehsul tapilmadi");
+                return;
+            }
+            else
+            {
+                Console.WriteLine($"Id: {product.Id} Name: {product.Name} Price: {product.Price} Stock: {product.Stock}");
+            }
         }
 
 
 
         public void ShowAllProduct()
         {
+            List<Product> products = ProductRepostory.Deserialize(_path);
 
+            products.ForEach(p => Console.WriteLine($"Id: {p.Id} Name: {p.Name} Price: {p.Price} Stock: {p.Stock}"));
+            
         }
     }
 }

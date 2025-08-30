@@ -21,7 +21,7 @@ namespace ConsoleApp_Project
 
             while (!(num == 0 && result))
             {
-                Console.WriteLine("1.Create Product\n2.Delete Product\n3.Get Product By Id\n4.Refill Product\n5.Order Product\n6.Shaw All Orders\n7.Change Order Status\n\n0.Exit");
+                Console.WriteLine("1.Create Product\n2.Delete Product\n3.Get Product By Id\n4.Show All Product\n5.Refill Product\n6.Order Product\n7.Shaw All Orders\n8.Change Order Status\n\n0.Exit");
                 str = Console.ReadLine();
                 Console.Clear();
                 result = int.TryParse(str, out num);
@@ -34,10 +34,11 @@ namespace ConsoleApp_Project
                         ProductService.DeleteProduct();
                         break;
                     case 3:
-                        Console.WriteLine("Product");
+                        ProductService.GetProductById();
                         break;
                     case 4:
-                        Console.WriteLine("Products");
+                        ProductService.ShowAllProduct();
+                        
                         break;
                     case 5:
                         Console.WriteLine("Products REFIL");
