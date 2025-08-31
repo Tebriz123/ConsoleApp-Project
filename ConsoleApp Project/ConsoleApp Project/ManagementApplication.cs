@@ -41,10 +41,10 @@ namespace ConsoleApp_Project
                         
                         break;
                     case 5:
-                        Console.WriteLine("Products REFIL");
+                        ProductService.RefillProduct();
                         break;
                     case 6:
-                        Console.WriteLine("PRODECT ");
+                        ProductService.OrderProduct();
                         break;
                     case 7:
                         Console.WriteLine("ORDERS");

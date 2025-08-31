@@ -3,8 +3,10 @@ using ConsoleApp_Project.Repositories;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
@@ -16,7 +18,7 @@ namespace ConsoleApp_Project.Services
     {
         private readonly string _path = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"../../../Data/Products.json"));
 
-        public Repostory<Product> ProductRepostory { get; set; }= new Repostory<Product>();
+        public Repostory<Product> ProductRepostory { get; set; } = new Repostory<Product>();
         public void CreateProduct()
         {
 
@@ -29,7 +31,7 @@ namespace ConsoleApp_Project.Services
                 return;
             }
             List<Product> products = ProductRepostory.Deserialize(_path);
-            
+
             bool isDublicate = products.Any(p => p.Name == name);
             if (isDublicate)
             {
@@ -72,8 +74,8 @@ namespace ConsoleApp_Project.Services
             string id = Console.ReadLine();
 
             List<Product> products = ProductRepostory.Deserialize(_path);
-            
-            
+
+
             Product delId = products.Find(p => p.Id.ToString() == id);
             products.Remove(delId);
             ProductRepostory.Serialize(_path, products);
@@ -105,7 +107,63 @@ namespace ConsoleApp_Project.Services
             List<Product> products = ProductRepostory.Deserialize(_path);
 
             products.ForEach(p => Console.WriteLine($"Id: {p.Id} Name: {p.Name} Price: {p.Price} Stock: {p.Stock}"));
+
+        }
+
+        public void RefillProduct()
+        {
+            Console.WriteLine("Id daxil edin:");
+            string id = Console.ReadLine();
+            List<Product> products = ProductRepostory.Deserialize(_path);
+            Product product = products.Find(p => p.Id.ToString() == id);
+            if (product == null)
+            {
+                Console.WriteLine($"Bu {id}li mehsul tapilmadi");
+                return;
+            }
+            else
+            {
+                Console.WriteLine($"Id: {product.Id} Name: {product.Name} Price: {product.Price} Stock: {product.Stock}");
+            }
+            Console.WriteLine("Stock daxil edin:");
+            int stock;
+            string ans = Console.ReadLine();
+            Console.Clear();
+            int.TryParse(ans, out stock);
+
+            if (stock < 0)
+            {
+                Console.WriteLine("Stock duzgun daxil edilmib.");
+                return;
+            }
+            else
+            {
+                product.Stock += stock;
+            }
+            ProductRepostory.Serialize(_path, products);
+            Console.WriteLine($"{product.Stock} ");
+        }
+
+        public void OrderProduct()
+        {
+           
+        }
+
+
+        //Order Product -ilk olaraq sifarish sahibinin Emailini gotururuk(email-de mutleq '@' xarakteri olmalidir)
+        //sonra Id qebul olunur hemin Id-li mehsul movcuddursa istifadeciden bu mehsuldan nece eded almaq istediyi goturulur
+        //eger bu mehsuldan istenilen sayda movcud deyilse sifarish heyata kecmir.Eger kifayet qeder varsa
+        //hemin mehsulu temsil eden OrderItem yaranir ve sifarishe devam etmek teklifi gonderilir.Eger istifadeci
+        //bashqa mehsuluda satisha elave elemek isteyirse bu zaman Diger mehsulun Id in gonderir ve prosses tekrarlanir.
+        //Nehayet mohsul secimleri bitdikde Order yaranir OrderItem-lari list olaraq ozunde saxlayir ve Total hesablanaraq
+        //Orders.json file-na yazilir. Order yaranan zaman default olaraq OrderStatus-a Pending deyeri verilir
+
+
+
+        public void ShawAllOrders()
+        {
             
+
         }
     }
 }
