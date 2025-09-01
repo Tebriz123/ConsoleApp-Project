@@ -1,9 +1,11 @@
 ﻿using ConsoleApp_Project.Models;
 using ConsoleApp_Project.Repositories;
+using ConsoleApp_Project.Utilits.Enums;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Numerics;
@@ -17,11 +19,10 @@ namespace ConsoleApp_Project.Services
     internal class ProductService
     {
         private readonly string _path = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"../../../Data/Products.json"));
-
         public Repostory<Product> ProductRepostory { get; set; } = new Repostory<Product>();
         public void CreateProduct()
         {
-
+            
             Console.WriteLine("Please enter name: ");
             string name = Console.ReadLine().Trim();
             Console.Clear();
@@ -118,7 +119,7 @@ namespace ConsoleApp_Project.Services
             Product product = products.Find(p => p.Id.ToString() == id);
             if (product == null)
             {
-                Console.WriteLine($"Bu {id}li mehsul tapilmadi");
+                Console.WriteLine($"Bu {id} - li mehsul tapilmadi");
                 return;
             }
             else
@@ -144,11 +145,7 @@ namespace ConsoleApp_Project.Services
             Console.WriteLine($"{product.Stock} ");
         }
 
-        public void OrderProduct()
-        {
-           
-        }
-
+       
 
         //Order Product -ilk olaraq sifarish sahibinin Emailini gotururuk(email-de mutleq '@' xarakteri olmalidir)
         //sonra Id qebul olunur hemin Id-li mehsul movcuddursa istifadeciden bu mehsuldan nece eded almaq istediyi goturulur
@@ -162,7 +159,7 @@ namespace ConsoleApp_Project.Services
 
         public void ShawAllOrders()
         {
-            
+
 
         }
     }

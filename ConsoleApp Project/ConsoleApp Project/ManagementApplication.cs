@@ -9,9 +9,11 @@ namespace ConsoleApp_Project
     internal class ManagementApplication
     {
         public ProductService ProductService { get; set; }
+        public OrderService OrderService { get; set; }
         public ManagementApplication()
         {
             ProductService = new ProductService();
+            OrderService = new OrderService();
         }
         public void Run()
         {
@@ -44,13 +46,13 @@ namespace ConsoleApp_Project
                         ProductService.RefillProduct();
                         break;
                     case 6:
-                        ProductService.OrderProduct();
+                        OrderService.OrderProduct();
                         break;
                     case 7:
-                        Console.WriteLine("ORDERS");
+                        OrderService.ShawAllOrders();
                         break;
                     case 8:
-                        Console.WriteLine("ORDERS STATUS");
+                        OrderService.ChangeOrderStatus();
                         break;
 
                     case 0:
