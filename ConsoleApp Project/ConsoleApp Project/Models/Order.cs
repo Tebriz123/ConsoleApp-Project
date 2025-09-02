@@ -1,4 +1,5 @@
-﻿using ConsoleApp_Project.Utilits.Enums;
+﻿using ConsoleApp_Project.Models.Base;
+using ConsoleApp_Project.Utilits.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Text;
 
 namespace ConsoleApp_Project.Models
 {
-    internal class Order:BaseEntity
+    internal class Order: BaseAuditable
     {
 
      

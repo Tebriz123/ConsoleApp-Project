@@ -22,11 +22,12 @@ namespace ConsoleApp_Project.Services
         public Repostory<Product> ProductRepostory { get; set; } = new Repostory<Product>();
         public void CreateProduct()
         {
-            
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.BackgroundColor = ConsoleColor.White;
             Console.WriteLine("Please enter name: ");
             string name = Console.ReadLine().Trim();
             Console.Clear();
-            if (name.Length < 1)
+            if (name.Length <= 1)
             {
                 Console.WriteLine("please enter right name:");
                 return;
@@ -35,7 +36,7 @@ namespace ConsoleApp_Project.Services
 
             bool isDublicate = products.Any(p => p.Name == name);
             if (isDublicate)
-            {
+            { 
                 Console.Clear();
                 Console.WriteLine("Hemin adda product var...");
                 return;
@@ -71,6 +72,9 @@ namespace ConsoleApp_Project.Services
 
         public void DeleteProduct()
         {
+            ShowAllProduct();
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.BackgroundColor = ConsoleColor.White;
             Console.Write("Enter product Id: ");
             string id = Console.ReadLine();
 
@@ -78,21 +82,60 @@ namespace ConsoleApp_Project.Services
 
 
             Product delId = products.Find(p => p.Id.ToString() == id);
+            if (delId == null)
+            {
+                Console.WriteLine("Id duzgun deyil!");
+                return;
+            }
             products.Remove(delId);
             ProductRepostory.Serialize(_path, products);
-            Console.WriteLine($"{id} pr");
+            Console.WriteLine("Wrong Id!");
         }
+
+
+        public void SoftDelete()
+        {
+            IsDeleteTrigger(true);
+
+        }
+
+        public void RetrieveProduct()
+        {
+            IsDeleteTrigger(false);
+
+        }
+
+        public void IsDeleteTrigger(bool isDelete)
+        {
+            ShowAllProduct();
+            Console.Write("Enter product Id: ");
+            string id = Console.ReadLine();
+            List<Product> products = ProductRepostory.Deserialize(_path);
+            Product delId = products.Find(p => p.Id.ToString() == id);
+            if (delId == null)
+            {
+                Console.WriteLine("Id duzgun deyil!");
+                return;
+            }
+            delId.IsDeleted = isDelete;
+            ProductRepostory.Serialize(_path, products);
+
+        }
+
+
 
 
         public void GetProductById()
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.BackgroundColor = ConsoleColor.White;
             Console.WriteLine("Id daxil edin:");
             string id = Console.ReadLine();
             List<Product> products = ProductRepostory.Deserialize(_path);
             Product product = products.Find(p => p.Id.ToString() == id);
             if (product == null)
             {
-                Console.WriteLine($"Bu {id}li mehsul tapilmadi");
+                Console.WriteLine($"Bu Id - li mehsul tapilmadi");
                 return;
             }
             else
@@ -105,21 +148,28 @@ namespace ConsoleApp_Project.Services
 
         public void ShowAllProduct()
         {
+
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.BackgroundColor = ConsoleColor.White;
             List<Product> products = ProductRepostory.Deserialize(_path);
-
-            products.ForEach(p => Console.WriteLine($"Id: {p.Id} Name: {p.Name} Price: {p.Price} Stock: {p.Stock}"));
-
+            foreach (Product p in products)
+            {
+                if (!p.IsDeleted) Console.WriteLine($"Id: {p.Id} Name: {p.Name} Price: {p.Price} Stock: {p.Stock}");
+            }
         }
 
         public void RefillProduct()
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.BackgroundColor = ConsoleColor.White;
             Console.WriteLine("Id daxil edin:");
             string id = Console.ReadLine();
             List<Product> products = ProductRepostory.Deserialize(_path);
             Product product = products.Find(p => p.Id.ToString() == id);
+            Console.Clear();
             if (product == null)
             {
-                Console.WriteLine($"Bu {id} - li mehsul tapilmadi");
+                Console.WriteLine($"Bu Id - li mehsul tapilmadi");
                 return;
             }
             else
@@ -143,24 +193,16 @@ namespace ConsoleApp_Project.Services
             }
             ProductRepostory.Serialize(_path, products);
             Console.WriteLine($"{product.Stock} ");
+
         }
 
-       
-
-        //Order Product -ilk olaraq sifarish sahibinin Emailini gotururuk(email-de mutleq '@' xarakteri olmalidir)
-        //sonra Id qebul olunur hemin Id-li mehsul movcuddursa istifadeciden bu mehsuldan nece eded almaq istediyi goturulur
-        //eger bu mehsuldan istenilen sayda movcud deyilse sifarish heyata kecmir.Eger kifayet qeder varsa
-        //hemin mehsulu temsil eden OrderItem yaranir ve sifarishe devam etmek teklifi gonderilir.Eger istifadeci
-        //bashqa mehsuluda satisha elave elemek isteyirse bu zaman Diger mehsulun Id in gonderir ve prosses tekrarlanir.
-        //Nehayet mohsul secimleri bitdikde Order yaranir OrderItem-lari list olaraq ozunde saxlayir ve Total hesablanaraq
-        //Orders.json file-na yazilir. Order yaranan zaman default olaraq OrderStatus-a Pending deyeri verilir
 
 
-
-        public void ShawAllOrders()
+        public void ShowDeleteProduct()
         {
-
-
+            List<Product> products = ProductRepostory.Deserialize( _path);
+           
         }
+
     }
 }

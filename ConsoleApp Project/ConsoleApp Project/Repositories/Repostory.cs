@@ -36,7 +36,7 @@ namespace ConsoleApp_Project.Repositories
             {
                 items = JsonConvert.DeserializeObject<List<T>>(result);
             }
-            return items;
+            return items; 
         }
     }
 }

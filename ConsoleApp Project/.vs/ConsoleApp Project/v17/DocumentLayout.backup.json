@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\managementapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\managementapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +11,16 @@
       "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\repositories\\repostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\repositories\\repostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\data\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\data\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\utilits\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\utilits\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\data\\orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\data\\orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\repositories\\repostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\repositories\\repostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +31,28 @@
       "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\models\\base\\baseauditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\models\\base\\baseauditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\models\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\models\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\utilits\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\utilits\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\consoleapp project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\consoleapp project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\data\\orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\data\\orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\mini project\\consoleapp project\\consoleapp project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2385642E-7BB3-41E1-960A-2520CB10C71E}|ConsoleApp Project\\ConsoleApp Project.csproj|solutionrelative:consoleapp project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,32 +62,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "ConsoleApp Project\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Services\\OrderService.cs",
-              "RelativeToolTip": "ConsoleApp Project\\Services\\OrderService.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAA7wH0AAAA6AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "BaseAuditable.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Models\\Base\\BaseAuditable.cs",
+              "RelativeDocumentMoniker": "ConsoleApp Project\\Models\\Base\\BaseAuditable.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Models\\Base\\BaseAuditable.cs",
+              "RelativeToolTip": "ConsoleApp Project\\Models\\Base\\BaseAuditable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T14:28:17.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Orders.json",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Data\\Orders.json",
-              "RelativeDocumentMoniker": "ConsoleApp Project\\Data\\Orders.json",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Data\\Orders.json",
-              "RelativeToolTip": "ConsoleApp Project\\Data\\Orders.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAD1BAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-01T12:16:01.117Z",
+              "WhenOpened": "2025-09-02T14:51:08.712Z",
               "EditorCaption": ""
             },
             {
@@ -98,105 +85,118 @@
               "RelativeDocumentMoniker": "ConsoleApp Project\\Data\\Products.json",
               "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Data\\Products.json",
               "RelativeToolTip": "ConsoleApp Project\\Data\\Products.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-29T13:14:12.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "Orders.json",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Data\\Orders.json",
+              "RelativeDocumentMoniker": "ConsoleApp Project\\Data\\Orders.json",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Data\\Orders.json",
+              "RelativeToolTip": "ConsoleApp Project\\Data\\Orders.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-01T12:16:01.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Repostory.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Repositories\\Repostory.cs",
               "RelativeDocumentMoniker": "ConsoleApp Project\\Repositories\\Repostory.cs",
               "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Repositories\\Repostory.cs",
               "RelativeToolTip": "ConsoleApp Project\\Repositories\\Repostory.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T19:41:21.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "ConsoleApp Project\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Services\\ProductService.cs",
               "RelativeToolTip": "ConsoleApp Project\\Services\\ProductService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T12:02:03.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Utilits\\Enums\\OrderStatus.cs",
               "RelativeDocumentMoniker": "ConsoleApp Project\\Utilits\\Enums\\OrderStatus.cs",
               "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Utilits\\Enums\\OrderStatus.cs",
               "RelativeToolTip": "ConsoleApp Project\\Utilits\\Enums\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T11:43:30.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Models\\Order.cs",
               "RelativeDocumentMoniker": "ConsoleApp Project\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Models\\Order.cs",
               "RelativeToolTip": "ConsoleApp Project\\Models\\Order.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA7wCcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T11:34:54.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ConsoleApp Project\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Models\\Product.cs",
               "RelativeToolTip": "ConsoleApp Project\\Models\\Product.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T11:24:22.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ManagementApplication.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\ManagementApplication.cs",
               "RelativeDocumentMoniker": "ConsoleApp Project\\ManagementApplication.cs",
               "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\ManagementApplication.cs",
               "RelativeToolTip": "ConsoleApp Project\\ManagementApplication.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAMwDYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T10:15:24.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Models\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "ConsoleApp Project\\Models\\Base\\BaseEntity.cs",
               "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Models\\Base\\BaseEntity.cs",
               "RelativeToolTip": "ConsoleApp Project\\Models\\Base\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T10:25:39.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "program.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\program.cs",
               "RelativeDocumentMoniker": "ConsoleApp Project\\program.cs",
@@ -208,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "ConsoleApp Project\\Models\\OrderItem.cs",
@@ -221,15 +221,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ConsoleApp Project.csproj",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj",
-              "RelativeDocumentMoniker": "ConsoleApp Project\\ConsoleApp Project.csproj",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\ConsoleApp Project.csproj",
-              "RelativeToolTip": "ConsoleApp Project\\ConsoleApp Project.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-29T13:14:56.538Z"
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "ConsoleApp Project\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\mini Project\\ConsoleApp Project\\ConsoleApp Project\\Services\\OrderService.cs",
+              "RelativeToolTip": "ConsoleApp Project\\Services\\OrderService.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAowCAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:43:36.338Z",
+              "EditorCaption": ""
             }
           ]
         }

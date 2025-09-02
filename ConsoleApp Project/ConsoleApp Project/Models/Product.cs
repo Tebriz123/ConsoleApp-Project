@@ -1,4 +1,5 @@
 ﻿using ConsoleApp_Project.Models;
+using ConsoleApp_Project.Models.Base;
 using System;
 using System.Collections.Generic;
 using System.Security.Principal;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace ConsoleApp_Project.Models
 {
-    internal class Product:BaseEntity
+    internal class Product:BaseAuditable
     {
         public string  Name { get; set; }
 

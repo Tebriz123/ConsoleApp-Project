@@ -1,14 +1,30 @@
 [
   {
-    "Name": "iphone 16 pro",
-    "Price": 211199.0,
-    "Stock": 21,
-    "Id": "df7c01c2-a12f-4cc5-8bea-be03fea7fccb"
+    "Name": "iphone 16 pro max",
+    "Price": 2999.0,
+    "Stock": 68,
+    "IsDeleted": false,
+    "Id": "3d9c44fd-fd0c-4f3e-8388-bffb1f39e8a6"
   },
   {
-    "Name": "iphone 5",
-    "Price": 9999.0,
-    "Stock": 1010,
-    "Id": "5d2d9df1-6dfa-401c-9624-91c87ae6bf7e"
+    "Name": "iphone 15",
+    "Price": 1999.0,
+    "Stock": 199,
+    "IsDeleted": false,
+    "Id": "01a7219f-9499-4d26-b885-1f5e5256d2cb"
+  },
+  {
+    "Name": "iphone 4",
+    "Price": 12.0,
+    "Stock": 100,
+    "IsDeleted": false,
+    "Id": "0327754b-98e6-4f43-af55-7d1375593d17"
+  },
+  {
+    "Name": "Alma",
+    "Price": 12.0,
+    "Stock": 100,
+    "IsDeleted": true,
+    "Id": "623c9f2e-51f6-4386-bfed-ecb2484fbc52"
   }
 ]
