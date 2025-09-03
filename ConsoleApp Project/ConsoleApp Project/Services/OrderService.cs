@@ -21,13 +21,16 @@ namespace ConsoleApp_Project.Services
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.BackgroundColor = ConsoleColor.White;
             string email;
+            
+
             do
             {
-                Console.WriteLine("Gmail daxil ein:");
+                Console.WriteLine("Enter the email:");
                 email = Console.ReadLine();
+                Console.Clear();
                 if (!email.Contains("@"))
                 {
-                    Console.WriteLine("Gmail duzgun daxil edilmeyib!");
+                    Console.WriteLine("Email is wrong!");
                 }
             } while (!email.Contains("@"));
             List<Product> products = ProductRepostory.Deserialize(_productPath);
@@ -53,14 +56,14 @@ namespace ConsoleApp_Project.Services
               
                 if (!Guid.TryParse(id, out Guid productId))
                 {
-                    Console.WriteLine("Id formati duzgun deyil");
+                    Console.WriteLine("The ID format is incorrect.");
                     continue;
                 }
 
-                Product product = products.Find(p => p.Id.ToString() == id);
+                Product product = products.Find(p => p.Id.ToString() == id.Trim());
                 if (product == null)
                 {
-                    Console.WriteLine($"Bu {id} - li mehsul tapilmadi");
+                    Console.WriteLine($"This product ID was not found.");
                     continue;
                 }
                 int stock;
@@ -92,7 +95,7 @@ namespace ConsoleApp_Project.Services
                 }
                 if (stock > product.Stock)
                 {
-                    Console.WriteLine($"Kifayet qeder mehsul yoxdur. Mehsul sayi: {product.Stock} qeder mehsul var!");
+                    Console.WriteLine($"There is not enough product. Product quantity: {product.Stock}");
                     continue;
                 }
                 product.Stock -= stock;
@@ -104,14 +107,15 @@ namespace ConsoleApp_Project.Services
                     SubTotal = product.Price * stock
                 };
                 items.Add(orderItem);
-                Console.WriteLine("Davam etmek isteyirsizmi?");
+                Console.WriteLine("Do you want to continue?(yes/no)");
                 string answer = Console.ReadLine().ToLower();
+                Console.Clear();
                 if (answer != "y" && answer != "yes") break;
-
+               
             }
             if (items.Count == 0)
             {
-                Console.WriteLine("Sifaris bosdur ");
+                Console.WriteLine("The order is empty.");
                 return;
             }
             Order order = new Order(items, email);
@@ -119,51 +123,32 @@ namespace ConsoleApp_Project.Services
             orders.Add(order);
             ProductRepostory.Serialize(_productPath, products);
             OrderRepostory.Serialize(_path, orders);
-            Console.WriteLine("sifaris yaradildi.");
+            Console.WriteLine("The order created");
 
 
         }
 
-        static void MatrixEffect(int rows, int cycles)
-        {
-            Random rand = new Random();
-            Console.ForegroundColor = ConsoleColor.Green;
-
-            for (int c = 0; c < cycles; c++)
-            {
-                for (int i = 0; i < rows; i++)
-                {
-                    Console.SetCursorPosition(rand.Next(Console.WindowWidth), rand.Next(Console.WindowHeight));
-
-                    Console.Write("Goat Ronaldo");
-                }
-                Thread.Sleep(100);
-            }
-
-            Console.ResetColor();
-            Console.Clear();
-        }
+      
         public void ShawAllOrders()
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.BackgroundColor = ConsoleColor.White;
-            MatrixEffect(1, 100);
             List<Order> orders = OrderRepostory.Deserialize(_path);
             orders.ForEach(o => o.PrintInfo());
-
         }
 
         public void ChangeOrderStatus()
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.BackgroundColor = ConsoleColor.White;
-            Console.WriteLine("Id daxil edin:");
+            ShawAllOrders();
+            Console.WriteLine("Please enter  ID:");
             string id = Console.ReadLine();
             List<Order> orders = OrderRepostory.Deserialize(_path);
-            Order order = orders.Find(o => o.Id.ToString() == id);
+            Order order = orders.Find(o => o.Id.ToString() == id.Trim());
             if (order == null)
             {
-                Console.WriteLine("Id duzgun deyil!");
+                Console.WriteLine("Id is wrong!");
                 return;
             }
             Console.WriteLine("Yeni statusu elave edin");
@@ -175,11 +160,11 @@ namespace ConsoleApp_Project.Services
             {
                 order.Status = (OrderStatus)newStatus;
                 OrderRepostory.Serialize(_path, orders);
-                Console.WriteLine("order status deyisdi");
+                Console.WriteLine("order status changed");
             }
             else
             {
-                Console.WriteLine("Bele bir status yoxdur");
+                Console.WriteLine("There is no such status");
             }
 
 

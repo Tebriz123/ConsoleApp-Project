@@ -76,17 +76,20 @@ namespace ConsoleApp_Project
                         OrderService.ChangeOrderStatus();
                         break;
                     case 9:
-                        Console.WriteLine("1.Show delete product\n2.Show Soft Delete Product");
+                        Console.WriteLine("1.Show every product\n2.Show Soft Delete Product\n3.Change Soft Delete Product");
                         str = Console.ReadLine();
                         Console.Clear();
                         result = int.TryParse(str, out num);
                         switch (num)
                         {
                             case 1:
-                                Console.WriteLine("Show delete product");
+                                ProductService.ShowEveryProduct();
                                     break;
                             case 2:
-                                Console.WriteLine("Show Soft Delete");
+                                ProductService.ShowSoftDelete();
+                                break;
+                            case 3:
+                                ProductService.ToggleSoftProduct();
                                 break;
                           
                         }
